@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fire-EWD PROTO</string>
+    <string name="title_tempRH">Temp &amp; Humidity</string>
+    <string name="title_cam">Light Camera</string>
+    <string name="title_thermal">Thermal Camera</string>
+</resources>

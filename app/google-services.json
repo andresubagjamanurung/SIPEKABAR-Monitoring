@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "25926725293",
+    "firebase_url": "https://fire-ewd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fire-ewd",
+    "storage_bucket": "fire-ewd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25926725293:android:c5c4cc8332b092a68be024",
+        "android_client_info": {
+          "package_name": "com.dremanru.fireewd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25926725293-be0k28lnbc8sf3tth2h8fnc5l67cc3g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY2RyKYssIWolm8fVE1FX7XxrZ-5mqSUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25926725293-be0k28lnbc8sf3tth2h8fnc5l67cc3g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25926725293:android:81b629e2619de8c08be024",
+        "android_client_info": {
+          "package_name": "com.dremanru.fireewd_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25926725293-be0k28lnbc8sf3tth2h8fnc5l67cc3g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY2RyKYssIWolm8fVE1FX7XxrZ-5mqSUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25926725293-be0k28lnbc8sf3tth2h8fnc5l67cc3g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

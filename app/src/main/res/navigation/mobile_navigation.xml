@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tempRH">
+
+    <fragment
+        android:id="@+id/navigation_tempRH"
+        android:name="com.dremanru.fireewd_2.ui.temprh.TempRHFragment"
+        android:label="@string/title_tempRH"
+        tools:layout="@layout/fragment_temprh" >
+        <action
+            android:id="@+id/action_navigation_tempRH_to_navigation_cam"
+            app:destination="@id/navigation_cam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_cam"
+        android:name="com.dremanru.fireewd_2.ui.cam.CamFragment"
+        android:label="@string/title_cam"
+        tools:layout="@layout/fragment_cam" >
+        <action
+            android:id="@+id/action_navigation_cam_to_navigation_thermal"
+            app:destination="@id/navigation_thermal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_thermal"
+        android:name="com.dremanru.fireewd_2.ui.thermal.ThermalFragment"
+        android:label="@string/title_thermal"
+        tools:layout="@layout/fragment_thermal" />
+</navigation>

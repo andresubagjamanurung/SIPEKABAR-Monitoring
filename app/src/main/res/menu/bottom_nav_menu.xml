@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tempRH"
+        android:icon="@drawable/temprh2"
+        android:title="@string/title_tempRH" />
+
+    <item
+        android:id="@+id/navigation_cam"
+        android:icon="@drawable/camera"
+        android:title="@string/title_cam" />
+
+    <item
+        android:id="@+id/navigation_thermal"
+        android:icon="@drawable/thermal_1"
+        android:title="@string/title_thermal" />
+
+</menu>
